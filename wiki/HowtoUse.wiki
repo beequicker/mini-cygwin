@@ -1,5 +1,4 @@
 #labels Featured
-#How to Use.
 
 = Introduction =
 
