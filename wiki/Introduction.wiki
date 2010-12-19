@@ -1,4 +1,4 @@
-#contents of this environment.
+#summary contents of this environment.
 
 = Introduction =
 
