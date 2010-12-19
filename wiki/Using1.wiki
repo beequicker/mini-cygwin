@@ -1,0 +1,16 @@
+#how to modify mini-cygwin for one click build.
+
+= Introduction =
+
+one click build for saving your time.can make you lazy,but we need it.
+
+a wizard is on it's way.coming soon.
+
+
+= Details =
+
+rem  %1 must be the abs path of your project
+set TARGET=%1
+path c:\cygwin;c:\cygwin\bin;
+call ndk.bat
+call ndk-build.bat %TARGET%
