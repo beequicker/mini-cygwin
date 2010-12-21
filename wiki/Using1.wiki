@@ -4,7 +4,14 @@
 
 one click build for saving your time.can make you lazy,but we need it.
 
-copy contents below to zbuild.bat,and copy zbuild.bat to your anroid project root path.
+*step 1*
+method 1
+download zbuild.bat from Downloads list.copy it to your android project root path.
+
+method 2
+copy contents below in Details Secion to zbuild.bat,and copy zbuild.bat to your anroid project root path.
+
+*step 2*
 then you can build your jni source by clicking zbuild.bat.
 
 very simple way for ndk development.
