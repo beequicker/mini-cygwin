@@ -36,6 +36,8 @@ cygpath %~dp0 >zbuild.ini
 
 set  /P TARGET=<zbuild.ini
 
+del zbuild.ini
+
 call ndk.bat
 
 call ndk-build.bat  %TARGET%  -B
