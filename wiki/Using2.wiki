@@ -1,5 +1,5 @@
+#summary How to Install mini-cygwin and Modify Environment Settings
 #labels Featured
-#How to Install mini-cygwin and Modify Environment Settings
 
 = Introduction =
 
