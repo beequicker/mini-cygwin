@@ -17,5 +17,5 @@ copy ndk.bat,ndk-build.bat to your cygwin root path;
 copy zbuild.bat to your project path.
 
 *Step3*
- 
+
 click your zbuild.bat
