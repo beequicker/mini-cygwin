@@ -2,6 +2,9 @@
 
 = Introduction =
 
+嵌入式开发环境中，cygwin是非常重要的工具，但是仔细研究一下却发现，我们装了好大一堆没有用的东西，经过我的简化，发现只要10MB以内的工具，就可以满足嵌入式开发的需要。特别是当我们的嵌入式项目都是用makefile编译的时候，其实cygwin只有很小的一部分有用，因为我们的toolchain都是独立于cygwin的，比如ads,rvds，arm-linux-gcc，mips-linux-gcc,sde,再加上android的ndk。
+以上就是我的mini-cygwin诞生的前提了，其实mini-cygwin已经诞生将近5年了。但是一直只有我所待过或者是我们公司方案的设计公司的兄弟们在用，估计人数不会上千吧。今天我良心发现了，所以放在GOOGLE上供大家下载使用，希望能提高大家的工作效率。
+
 mini-cygwin is a 7.7MB environment,which can support android ndk(r4,r5) development.
 
 and it can support other toolchain either,eg. ads,rvds,arm-linux-gcc,mips-linux-gcc,sde-mips,and so on.
