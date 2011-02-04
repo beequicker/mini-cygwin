@@ -1,0 +1,21 @@
+##############################################
+# cygwin micros version 1.0 for rvds2.2
+
+    CYGWIN = c:/cygwin
+  ARMTOOLS = C:/PROGRA~1/ARM/RVCT/PROGRAMS/2.2/349/WIN_32~1
+
+       CPP = $(ARMTOOLS)/armcpp
+        CC = $(ARMTOOLS)/armcc
+        LD = $(ARMTOOLS)/armlink
+        AR = $(ARMTOOLS)/armar
+
+# lib path
+
+COMMONLIB  = C:/PROGRA~1/ARM/RVCT/Data/2.2/349/lib
+
+# inc path
+
+COMMONINC  = C:/PROGRA~1/ARM/RVCT/Data/2.2/349/include/windows
+
+# vrix.yan 2009.08.13 13:46
+##############################################

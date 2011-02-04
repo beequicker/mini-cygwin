@@ -1,0 +1,23 @@
+##############################################
+# cygwin micros version 1.0 for arm-linux
+
+    CYGWIN = c:/cygwin
+  ARMTOOLS = $(CYGWIN)/arm
+
+       CPP = $(ARMTOOLS)/bin/arm-linux-cpp
+        CC = $(ARMTOOLS)/bin/arm-linux-gcc
+        LD = $(ARMTOOLS)/bin/arm-linux-ld
+        AR = $(ARMTOOLS)/bin/arm-linux-ar
+     STRIP = $(ARMTOOLS)/bin/arm-linux-strip
+    RANLIB = $(ARMTOOLS)/bin/arm-linux-ranlib
+
+# lib path
+
+COMMONLIB  = $(ARMTOOLS)/lib
+
+# inc path
+
+COMMONINC  = $(ARMTOOLS)/include
+
+# vrix.yan 2008.10.08 16:49
+##############################################
