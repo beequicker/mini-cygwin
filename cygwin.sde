@@ -1,0 +1,16 @@
+##############################################
+# cygwin micros version 1.0 for sde
+
+CYGWIN     = c:/cygwin
+MIPSTOOLS  = $(CYGWIN)/sde
+
+# lib path
+
+COMMONLIB  = $(MIPSTOOLS)/lib
+
+# inc path
+
+COMMONINC  = $(MIPSTOOLS)/include
+
+# vrix.yan 2008.10.08 16:49
+##############################################

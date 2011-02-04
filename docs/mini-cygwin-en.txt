@@ -1,0 +1,37 @@
+mini cygwin v2.0.1
+---------------------------------------------------------------------------------
+author: vrix.yan
+ email: vrix.yan@gmail.com
+      qq: 6066834
+   blog: http://blog.csdn.net/vrix
+---------------------------------------------------------------------------------
+
+introduction:
+mini cygwin is a small and really cute cygwin environment.use it,you can do your work by modify your batch file and makefile(no shell script).and it consums only 7.77MB space of your harddisk; [the compressed mini-cygwin just 2.4MB]
+
+attention£º
+   you needs modify the batch files in root path of cygwin,eg. ndk.bat env.bat ....
+
+   ndk.bat   ndk toolchain path
+   arm-gcc.bat   arm-linux-gcc toolchain path
+   jz47xx.bat   mips-linux-gcc toolchain path
+   cygwin.*   common makefile Varables for different toolchains;
+
+   NDK path is default path when you start cygwin.bat,you can chage default path by modify ndk.bat
+
+---------------------------------------------------------------------------------
+How To Use Mini-Cygwin:
+
+   just create a windows link which links to cygwin.bat in cygwin root path on your desktop and click it when you 
+want  build or make any project.
+
+---------------------------------------------------------------------------------
+Change Log£º
+   2010.12.16 12:57  2.0.1   support  ndk-r5
+   2010.12.16 09:19  2.0      support  ndk-r4
+---------------------------------------------------------------------------------
+   2009.08.13 14:18  1.3      support rvds
+   2009.03.28 16:19  1.2      support arm-gcc 
+   2008.12.23 11:39  1.1      support jz47xx mips-linux-gcc
+   2008.11.08 17:43  1.0      support ads1.2(arm) sde(mips)
+   

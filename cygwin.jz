@@ -1,0 +1,24 @@
+##############################################
+# cygwin micros version 1.0 for jz47xx
+
+CYGWIN    = c:/cygwin
+MIPSTOOLS = $(CYGWIN)/mipseltools
+
+CPP       = $(MIPSTOOLS)/bin/mipsel-linux-g++
+CC        = $(MIPSTOOLS)/bin/mipsel-linux-gcc
+LD        = $(MIPSTOOLS)/bin/mipsel-linux-ld
+OBJCOPY   = $(MIPSTOOLS)/bin/mipsel-linux-objcopy
+OBJDUMP   = $(MIPSTOOLS)/bin/mipsel-linux-objdump
+AR        = $(MIPSTOOLS)/bin/mipsel-linux-ar rus
+STRIP     = $(MIPSTOOLS)/bin/mipsel-linux-strip -g -x
+
+# lib path
+
+COMMONLIB  = $(MIPSTOOLS)/lib
+
+# inc path
+
+COMMONINC  = $(MIPSTOOLS)/include
+
+# vrix.yan 2008.10.08 16:49
+##############################################
