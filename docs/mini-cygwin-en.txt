@@ -50,8 +50,8 @@ ONE CLICK BUILD SUPPORT ON YOUR FULL INSTALLED CYGWIN FOR ANDROID PROJECT:
 
 ---------------------------------------------------------------------------------
 Change Log£º
-   2011.01.05 09:54  2.0.2   modify docs for more detail
-   2010.12.16 12:57  2.0.1   support  ndk-r5
+   2011.01.05 09:54  2.0.2    support ndk-r5b
+   2010.12.16 12:57  2.0.1    support  ndk-r5
    2010.12.16 09:19  2.0      support  ndk-r4
 ---------------------------------------------------------------------------------
    2009.08.13 14:18  1.3      support rvds
