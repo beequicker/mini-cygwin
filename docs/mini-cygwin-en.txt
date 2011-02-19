@@ -1,4 +1,4 @@
-mini cygwin v2.0.1
+mini cygwin v2.0.2
 ---------------------------------------------------------------------------------
 author: vrix.yan
  email: vrix.yan@gmail.com
@@ -26,7 +26,31 @@ How To Use Mini-Cygwin:
 want  build or make any project.
 
 ---------------------------------------------------------------------------------
+HOW TO INSTALL:
+
+download cygwin-lite.7z and unarchive it to your Disk C
+then you have c:\cygwin as the root path;
+click c:\cygwin\cygwin.reg for register mini-cygwin;
+
+well done! Install Finished.
+---------------------------------------------------------------------------------
+HOW TO MODIFY:
+
+mini-cygwin is small and cute, so keep it in disk C;
+if your ndk's path is not d:\android\android-ndk,you can change NDK.bat
+see it for more detail,it just do "cd [ndk-path]" for mini-cygwin;
+
+if you are not work with android,just for ADS,RVDS or other toolchain.you just remove "call ndk.bat" from env.bat.
+---------------------------------------------------------------------------------
+ONE CLICK BUILD SUPPORT ON YOUR FULL INSTALLED CYGWIN FOR ANDROID PROJECT:
+
+(1)copy ndk.bat,ndk-build.bat to your cygwin root path;
+(2)copy zbuild.bat to your project path.
+(3) click your zbuild.bat
+
+---------------------------------------------------------------------------------
 Change Log£º
+   2011.01.05 09:54  2.0.2   modify docs for more detail
    2010.12.16 12:57  2.0.1   support  ndk-r5
    2010.12.16 09:19  2.0      support  ndk-r4
 ---------------------------------------------------------------------------------
