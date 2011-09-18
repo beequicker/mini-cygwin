@@ -1,4 +1,4 @@
-mini cygwin v2.0.2
+mini cygwin v2.0.3
 ---------------------------------------------------------------------------------
 author: vrix.yan
  email: vrix.yan@gmail.com
@@ -8,6 +8,8 @@ author: vrix.yan
 
 introduction:
 mini cygwin is a small and really cute cygwin environment.use it,you can do your work by modify your batch file and makefile(no shell script).and it consums only 7.77MB space of your harddisk; [the compressed mini-cygwin just 2.4MB]
+android NDK support: r3,r4,r4b,r5,r5b,r6,r6b
+mini cygwin can work with any toolchain now,includes arm-linux,misel-tools-linux,sed,ads,rvds....
 
 attention£º
    you needs modify the batch files in root path of cygwin,eg. ndk.bat env.bat ....
@@ -50,6 +52,7 @@ ONE CLICK BUILD SUPPORT ON YOUR FULL INSTALLED CYGWIN FOR ANDROID PROJECT:
 
 ---------------------------------------------------------------------------------
 Change Log£º
+   2011.09.18 11:27  2.0.3    support ndk-r6,ndk-r6b,add diff,xargs,iconv,update sed¡£
    2011.01.05 09:54  2.0.2    support ndk-r5b
    2010.12.16 12:57  2.0.1    support  ndk-r5
    2010.12.16 09:19  2.0      support  ndk-r4
